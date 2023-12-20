@@ -1,6 +1,6 @@
-import React from 'react';
-import styled, { keyframes } from 'styled-components';
-import logo from '../asset/logo.png';
+import React from "react";
+import styled, { keyframes } from "styled-components";
+import logo from "../asset/logo.png";
 
 const Wrapper = styled.div`
   width: 100vw;

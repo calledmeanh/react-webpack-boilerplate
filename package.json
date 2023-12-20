@@ -4,7 +4,9 @@
   "description": "react-webpack-boilerplate",
   "scripts": {
     "start": "webpack serve --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "format:src": "prettier --write ./src",
+    "format:all": "prettier --write ."
   },
   "author": "Hoang Anh",
   "license": "MIT",
@@ -29,6 +31,7 @@
     "css-minimizer-webpack-plugin": "^5.0.1",
     "html-webpack-plugin": "^5.5.3",
     "mini-css-extract-plugin": "^2.7.6",
+    "prettier": "3.1.1",
     "styled-components": "^6.1.1",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",
